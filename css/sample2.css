@@ -1,0 +1,76 @@
+body{
+  background-image: url('images/bg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+width: 980px;
+margin: auto;
+
+}
+
+.header {
+background-color: orange;}
+
+.logo {  height:67px;
+position: relative;
+    left:0;
+   }
+.logo a { float:left;
+  width:200px;
+
+  margin-top: 60px;
+  background:url('images/logo.jpg') no-repeat ;
+   font-size: 0;
+   line-height: 0;
+   text-indent: -4000px; }
+
+   .navigation {color:white;position: absolute;bottom:-40px;left:450px;float:right; clear:right; padding-top:28px; padding-bottom:47px; }
+   .navigation {list-style:none; }
+
+   .navigation li{ font-size:18px; float:left; display:inline; padding-left:29px;margin-top: 10px; font-family: 'Black Ops One', cursive;
+
+}
+
+   .navigation li a{ font-size:40px; font-weight:bold;  text-decoration:none; }
+  .navigation li:hover {cursor: pointer;text-decoration:underline;color: #1E90FF}
+
+
+  .search {float: right;width:370px;margin: auto; }
+  .search label { float:left; display:inline; font-size:14px; font-weight:bold; color:orange; line-height:24px; padding-right:6px; }
+  .search .search-field { width:238px; border: 1px solid #413e3e; background:#000; color:#787878; padding:2px 0 2px 2px; }
+  .search .search-button { font-size:14px; font-weight:bold; border:0; background:none; color:orange;   cursor:pointer; }
+
+.movie_img{padding-top: 50px;}
+   .movie_img img {border: 2px outset orange;width:152px; height:214px;margin-left: 20px;}
+   .movie_img .name {font-family: 'Rock Salt', cursive;
+color:orange;font-weight: bold;font-size:16px; text-align:center; display:block; }
+   .movie_img article{font-family: 'Harmattan', sans-serif;
+text-align: justify;margin-right: 250px;color: white;font-size: 20px;width: 500px;float: right;}
+.select {color: orange;font-family: 'Marmelad', sans-serif;
+font-size: 20px;margin-top: 100px;display:block;}
+.select .search-field{ background: black;color: grey;}
+.select li{list-style: none;padding-top: 20px;padding-left: 150px;}
+.select #not{margin-left: 46px;color: grey;background: black;}
+
+.shows {padding-left: 0px;margin-left: 0px;width: 250px;list-style: none;}
+.shows li{display:inline;}
+.shows a{padding-left: 5px;color: white;background-color: green;text-decoration: none;}
+.shows a:hover{cursor: pointer;text-decoration: underline;}
+.content .shows li{color:green;}
+
+.tickets img{width: 500px;height: 400px;float:center;margin-left: 230px;margin-top: 10px;}
+#footer {
+  padding:15px 0 0 0;
+ }
+#footer p {
+color: orange; text-align:center; font-size:10px; padding-bottom:11px;
+}
+#footer a {
+  color:orange; font-size:10px;
+}
+#footer a:hover {
+  color:white; text-decoration:none;
+ }
+
+#footer a:hover.designby {
+   color:#9c9c9c; text-decoration:none;
+ }
